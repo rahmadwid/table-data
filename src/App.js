@@ -30,7 +30,7 @@ function App() {
       </Navbar>
 
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/table-data" component={Home} />
         <Route exact path="/posts" component={PostIndex} />
         <Route exact path="/posts/create" component={PostCreate} />
         <Route exact path="/posts/edit/:id" component={PostEdit} />
